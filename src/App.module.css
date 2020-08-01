@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+@value fontColor: #333;
+@value borderColor: #DDD;
+@value disabledBorderColor: #DDD;
+@value hightlight: lightsalmon;
+@value bodyFontSize: 1.1rem;
+@value borderRadius: 8px;
+@value borderWidth: 4px;
+
+.Layout {
+    display: grid;
+    grid-template-columns: 1fr minmax(0px, 600px) 1fr;
+    grid-template-rows: repeat(3, auto);
+    font-family: 'Varela Round', sans-serif;
+    height: 100%;
+    padding: 0px 5px;
+    color: fontColor;
+}
+.ContentColumn {
+    grid-column: 2 / 3;
+}
+.Title {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+.Paragraph {
+    font-size: bodyFontSize;
+    text-align: justify;
+}
+.ContentCenterRow {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+.Generator {
+    height: 100px;
+    width: 100px;
+    border: borderWidth dashed borderColor;
+    border-radius: borderRadius;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hightlight;
+}
+.Button {
+    height: 50px;
+    width: 200px;
+    border: borderWidth solid hightlight;
+    border-radius: borderRadius;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: transparent;
+    transition: background 0.2s;
+    font-size: bodyFontSize;
+}
+.Button:hover {
+    background: lightsalmon;
+}
+.Button[disabled] {
+    border: borderWidth solid disabledBorderColor;
+    background: disabledBorderColor;
+    cursor: not-allowed;
+}
