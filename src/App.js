@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet'
 import styles from './App.module.css';
 
 import { iconList } from './iconList.js';
@@ -108,6 +109,10 @@ class App extends React.Component {
     render() {
         return (
             <Layout>
+                <Helmet>
+                  <meta charSet="utf-8" />
+                  <title>IconIdeas</title>
+                </Helmet>
                 <ContentColumn>
                     <Title title="Icons are Ideas" />
                     <Paragraph>
