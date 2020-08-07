@@ -8,4 +8,4 @@ Words can't describe every idea. Generate ideas with one click.
 
 # Screenshot
 
-[![](./screenshot1.png)](https://strawstack.github.io/IconsAreIdeas/)
+[![](./screenshot.png)](https://strawstack.github.io/IconsAreIdeas/)

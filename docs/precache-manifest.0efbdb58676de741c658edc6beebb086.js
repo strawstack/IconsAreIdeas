@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c2993aec1ad4f8782cfcdee8bfd0ff49",
+    "revision": "de5516fbc043d4fbcaa5651107f6d3b9",
     "url": "/IconsAreIdeas/index.html"
   },
   {
-    "revision": "7e58ab07e957c5b6c48e",
+    "revision": "6ee50c8e431d6fdced05",
     "url": "/IconsAreIdeas/static/css/main.863fe687.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/IconsAreIdeas/static/js/2.e901b113.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7e58ab07e957c5b6c48e",
-    "url": "/IconsAreIdeas/static/js/main.77686e19.chunk.js"
+    "revision": "6ee50c8e431d6fdced05",
+    "url": "/IconsAreIdeas/static/js/main.e109cc98.chunk.js"
   },
   {
     "revision": "a62d60a7f5e11ae76acf",
